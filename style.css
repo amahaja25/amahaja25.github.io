@@ -1,4 +1,39 @@
 body {
     background-color: #fff9ea;
   }
+
+#main {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.25em;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#home {
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 2em;
+ }
   
+.bi {
+    color: #C04E01;
+    font-size: 1.3em;
+    margin-left: 0.30em;
+}
+
+.bi:hover {
+    color:  #631e50;
+ }
+ 
+a {
+    color: #631e50;
+}
+ 
+
+a:hover {
+    color:  #C04E01;
+ }
+ 
+
+
+ 
