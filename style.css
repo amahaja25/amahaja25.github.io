@@ -9,23 +9,24 @@ body {
 
 #main {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     margin: 0 auto;
     width: 100%;
+    flex: 1 0 auto;
 }
 
 #home {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 3rem;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
     flex-grow: 1;
-    margin-bottom: 10rem;
+    margin-bottom: 10em;
  }
   
 .bi {
     color: #C04E01;
-    font-size: 1.3rem;
-    margin-left: 0.30rem;
+    font-size: 1.3em;
+    margin-left: 0.30em;
 }
 
 .bi:hover {
@@ -33,7 +34,7 @@ body {
  }
  
 a {
-    color: #6a0d83;
+    color: #341e63;
 }
  
 
