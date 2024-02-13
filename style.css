@@ -9,24 +9,24 @@ body {
 
 #main {
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     margin: 0 auto;
     width: 100%;
     flex: 1 0 auto;
 }
 
 #home {
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 3em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
     flex-grow: 1;
-    margin-bottom: 10em;
+    margin-bottom: 10rem;
  }
   
 .bi {
     color: #C04E01;
-    font-size: 1.3em;
-    margin-left: 0.30em;
+    font-size: 1.3rem;
+    margin-left: 0.30rem;
 }
 
 .bi:hover {
@@ -47,4 +47,14 @@ a:hover {
     color:#C04E01;
 }
 
-
+@media only screen and (max-width: 600px) {
+    #home {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+        flex-grow: 1;
+        margin-bottom: 5rem;
+     }
+      
+    
+}
