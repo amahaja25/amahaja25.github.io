@@ -34,7 +34,7 @@ body {
  }
  
 a {
-    color: #341e63;
+    color: #631e50;
 }
  
 
@@ -42,9 +42,30 @@ a:hover {
     color:  #C04E01;
  }
  
-
-.nav-text-color {
-    color:#C04E01;
+.navbar, .navbar-nav, .nav-link{
+    font-family: "Righteous", sans-serif; 
+    font-size: 30px;
+    overflow: hidden;
+    display: flex;
+    
+    
 }
 
+@media only screen and (max-width: 950px) {
+    .nav-link {
+        font-size: .8em;
+      }
+      
+}
+
+ul .nav {
+    float: left;
+}
+
+
+a .nav-link {
+    display: block;
+    padding-right: 1.75em;
+
+}
 
