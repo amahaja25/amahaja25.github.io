@@ -1,6 +1,6 @@
 body {
     background-color: #fff9ea;
-    height: 100%;
+    width: 100%;
     position: relative;
     margin: 0;
     display: flex;
@@ -12,7 +12,6 @@ body {
     font-size: 1.25rem;
     margin: 0 auto;
     width: 100%;
-    flex: 1 0 auto;
 }
 
 #home {
@@ -54,6 +53,9 @@ a:hover {
        margin-right: 1em;
        width: 100%;
      }
-      
+    
+     body {
+        width: 100%;
+     }
     
 }
