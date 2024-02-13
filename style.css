@@ -56,6 +56,11 @@ a:hover {
         font-size: .7em;
         flex-direction: row;
       }
+    #home {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 3em;
+    }
       
 }
 
