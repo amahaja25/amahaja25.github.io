@@ -1,5 +1,10 @@
 body {
     background-color: #fff9ea;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 
 #main {
@@ -7,12 +12,15 @@ body {
     font-size: 1.25em;
     margin: 0 auto;
     width: 100%;
+    flex: 1 0 auto;
 }
 
 #home {
     margin-left: 5em;
     margin-right: 5em;
-    padding-top: 2em;
+    margin-top: 3em;
+    flex-grow: 1;
+    margin-bottom: 10em;
  }
   
 .bi {
@@ -35,5 +43,8 @@ a:hover {
  }
  
 
+.nav-text-color {
+    color:#C04E01;
+}
 
- 
+
