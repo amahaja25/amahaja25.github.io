@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     width: 100%;
     flex: 1 0 auto;
+    display: inline-block;
 }
 
 #home {
@@ -42,18 +43,27 @@ a:hover {
     color:  #C04E01;
  }
  
-.navbar, .navbar-nav, .nav-link{
+.navbar, .nav-link{
     font-family: "Righteous", sans-serif; 
     font-size: 30px;
-    overflow: hidden;
-    display: flex;
-    
-    
+    display: flex; 
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 500px) {
+    ul .nav {
+        justify-content: space-between;
+        position: fixed;
+        padding-left: 0em;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+    }
+    nav {
+        justify-content: space-between;
+
+    }
     .nav-link {
-        font-size: .7em;
+        font-size: .6em;
         flex-direction: row;
       }
     #home {
@@ -61,7 +71,17 @@ a:hover {
     margin-right: 2em;
     margin-top: 3em;
     }
+    .bi {
+        font-size: 1em;
+    }
+    ul .clip-list {
+        list-style: none;
+    }
       
+}
+
+.container-fluid {
+    padding-left: 2em;
 }
 
 ul .nav {
@@ -73,5 +93,9 @@ a .nav-link {
     display: block;
     padding-right: 1.75em;
 
+}
+
+.nav-link:hover {
+    filter: brightness(70%);
 }
 
