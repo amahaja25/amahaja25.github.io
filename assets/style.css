@@ -30,6 +30,7 @@ body {
     margin-left: 0.30em;
 }
 
+
 .bi:hover {
     color:  #631e50;
  }
@@ -39,6 +40,11 @@ a {
     text-decoration: none;
 }
  
+
+h1, h3 {
+    font-family: "Rufina", serif;
+}
+
 
 a:hover {
     color:  #C04E01;
@@ -76,9 +82,7 @@ a:hover {
     .bi {
         font-size: 1em;
     }
-    ul .clip-list {
-        list-style: none;
-    }
+
       
 }
 
@@ -118,4 +122,12 @@ a .nav-link {
 
 .home-link:hover {
     color:  #631e50;
+}
+.date {
+    line-height: 80%;
+    padding-bottom: 0.5em;
+}
+
+ul.clip-list, .description, .education, .awards, .skills {
+    list-style-type: square;
 }
