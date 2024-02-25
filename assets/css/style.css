@@ -106,12 +106,6 @@ a .nav-link {
     filter: brightness(70%);
 }
 
-.apurva {
-    text-align:left;
-    font-family: 'Righteous', sans-serif;
-    font-size: 5em;
-
-}
 
 
 .home-link {
@@ -130,4 +124,10 @@ a .nav-link {
 
 ul.clip-list, .description, .education, .awards, .skills {
     list-style-type: square;
+}
+
+.name {
+    font-family: "Rufina", serif;
+    font-size: 5em;
+    margin-left: 1em;
 }
