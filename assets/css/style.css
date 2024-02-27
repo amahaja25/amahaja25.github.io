@@ -122,7 +122,7 @@ a .nav-link {
     padding-bottom: 0.5em;
 }
 
-ul.clip-list, .description, .education, .awards, .skills {
+.description, .education, .awards, .skills {
     list-style-type: square;
 }
 
