@@ -146,3 +146,9 @@ a .nav-link {
     font-family: "DM Sans", sans-serif;
     font-size: 1.5em;
 }
+
+.pagetitle {
+    font-family: "Hahmlet", serif;
+    font-size: 3.5em;
+    color: #a84216;
+}
