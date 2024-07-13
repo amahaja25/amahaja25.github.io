@@ -36,7 +36,7 @@ body {
  }
  
 a {
-    color: #631e50;
+    color: #235C84;
     text-decoration: none;
 }
  
@@ -51,6 +51,7 @@ a:hover {
 
  }
  
+
 .navbar, .nav-link{
     font-family: "Righteous", sans-serif; 
     font-size: 30px;
@@ -152,8 +153,15 @@ a .nav-link {
     font-size: 3.5em;
 }
 
-
-
 .clip-list li {
     margin: 0.5px; 
+}
+
+.explanations {
+    font-size: .8em;
+    list-style-type: square;
+}
+
+.clips {
+    font-weight: bolder;
 }
