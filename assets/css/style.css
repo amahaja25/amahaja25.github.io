@@ -21,7 +21,7 @@ body {
     margin-right: 5em;
     margin-top: 3em;
     flex-grow: 1;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
  }
   
 .bi {
@@ -153,6 +153,7 @@ a .nav-link {
 }
 
 
-ul.clip-list {
-    list-style-type: square;
+
+.clip-list li {
+    margin: 0.5px; 
 }
