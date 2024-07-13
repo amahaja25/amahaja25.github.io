@@ -121,13 +121,18 @@ a .nav-link {
 .home-link:hover {
     color:  #631e50;
 }
-.date {
-    line-height: 80%;
-    padding-bottom: 0.5em;
+
+
+
+
+.date, .awarddate {
+    color: #a84216;
+
 }
 
 .description, .education, .awards, .skills {
     list-style-type: square;
+    font-size: .8em;
 }
 
 .name {
