@@ -16,6 +16,11 @@ body {
     display: inline-block;
 }
 
+img {
+    margin: auto;
+    max-width: 100%;
+}
+
 #home {
     margin-left: 5em;
     margin-right: 5em;
@@ -85,6 +90,10 @@ a:hover {
     }
     .pagetitle {
         font-size: .4em;
+    }
+    img {
+        max-width: 100%;
+        margin: auto;
     }
 
       
@@ -173,3 +182,4 @@ a .nav-link {
 .clips {
     font-weight: bolder;
 }
+
