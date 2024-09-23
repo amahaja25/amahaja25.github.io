@@ -214,4 +214,5 @@ a .nav-link {
 .close {
     color: white;
     font-size: 2em;
+    padding-left: .5em;
 }
