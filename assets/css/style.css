@@ -91,10 +91,8 @@ a:hover {
     .pagetitle {
         font-size: .4em;
     }
-    img {
-        max-width: 100%;
-        margin: auto;
-    }
+    
+    
 
       
 }
@@ -154,6 +152,7 @@ a .nav-link {
     font-family: "DM Sans", sans-serif;
     color:#C04E01;
     font-size: 2em;
+    display: inline-block;
 }
 .subhead {
     font-family: "DM Sans", sans-serif;
@@ -183,3 +182,16 @@ a .nav-link {
     font-weight: bolder;
 }
 
+.cursor {
+    display: inline-block;
+    width: 1px;
+    background-color: black;
+    animation: blink 0.7s steps(1) infinite;
+    height: 1em;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

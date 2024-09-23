@@ -52,26 +52,31 @@
   <div id="main">
   <div class="apurvamahajan"></div>
   <script>
-    const div = document.querySelector(".apurvamahajan")
+    const div = document.querySelector(".apurvamahajan");
     const text = "Hi there! I'm Apurva Mahajan.";
+    const cursor = document.createElement('span');
+    cursor.classList.add('cursor');
+    div.appendChild(cursor);
 
-    function typingEffect(element, text, i = 0) {
+    function typingEffect(element, text, cursor, i = 0) {
         if (i === 0) {
           element.textContent = "";
+          element.appendChild(cursor);
         }
 
         element.textContent += text[i];
 
         if (i === text.length - 1) {
+          cursor.style.display = 'none';
           return;
         }
 
-        setTimeout(() =>  typingEffect(element, text, i + 1), 70)
+        setTimeout(() =>  typingEffect(element, text, cursor, i + 1), 70)
 
        
     }
 
-    typingEffect(div, text);
+    typingEffect(div, text, cursor);
 
 
   </script>
@@ -79,7 +84,7 @@
    <p>When I'm not in class, you can likely find me in <a class="home-link" href="https://dbknews.com" target="_blank">The Diamondback</a>'s newsroom, where I work as editor in chief to oversee more than 100 staff members of my university's independent student newspaper. I make long-standing editorial decisions about our coverage and policies and edit news, sports, opinion, data, multimedia and arts and culture stories five nights a week.</p>
    <p>I most recently was a reporting intern for <a class="home-link" href="https://www.fredericknewspost.com/users/profile/apurva%20mahajan/" target="_blank"> The Frederick News-Post</a> through the Maryland-Delaware-D.C. Press Association's internship program. I covered a variety of breaking news, enterprise and data-driven stories across Frederick County.</p>
    <p>Last summer, I was an intern for <a class="home-link" href="https://aviationweek.com" target="_blank">Aviation Week</a> in Washington, D.C., reporting on aviation, aerospace and defense. I covered topics such as India's successful 2023 moon mission, the fiscal 2024 national defense policy bill, workforce development in the space industry and scientific missions on Mars. </p> 
-   <p>I'm working toward a career in data and computational journalism. I code in R, Python, HTML and CSS, analyze data in Google Sheets/Excel and make visualizations using Datawrapper and Flourish. I'm currently learning ArcGIS and QGIS. I also coded and designed this website! </p>
+   <p>I'm working toward a career in data and computational journalism. I code in R, Python, HTML and CSS, analyze data in Google Sheets/Excel and make visualizations using Datawrapper and Flourish. I'm currently learning ArcGIS and QGIS and teaching myself JavaScript. I also coded and designed this website! </p>
    <p>Let's get in touch! You can send me an email or find me online here:
         <span class="icons">
             <a href="mailto:amahaja@umd.edu" target="_blank"> <i class="bi bi-envelope-fill" alt="Email"></i></a>
