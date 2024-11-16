@@ -178,8 +178,9 @@ a .nav-link {
 }
 
 .explanations {
-    font-size: .8em;
+    font-size: 1em;
     list-style-type: square;
+    font-family:  "DM Sans", sans-serif;
 }
 
 .clips {
