@@ -44,6 +44,10 @@ a {
     color: #C04E01;
     text-decoration: none;
 }
+
+a:hover {
+    color:  #631e50;
+}
  
 
 h1, h3 {
@@ -128,16 +132,6 @@ a .nav-link {
 }
 
 
-
-.home-link {
-    color:#C04E01;
-    font-weight: bolder;
-
-}
-
-.home-link:hover {
-    color:  #631e50;
-}
 
 
 
