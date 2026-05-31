@@ -1,5 +1,7 @@
 import rawCsv from '../../data/selectedwork.csv?raw';
 
+const orgOrder = ['The Texas Tribune', 'The Detroit News', 'The Diamondback', 'The Frederick News-Post'];
+
 function parseCSVRow(row) {
 	const result = [];
 	let current = '';
@@ -30,6 +32,7 @@ function parseCSV(raw) {
 
 export function load() {
 	const items = parseCSV(rawCsv);
+	/** @type {Record<string, {org: string, items: object[]}[]>} */
 	const grouped = {};
 
 	for (const item of items) {
@@ -43,6 +46,14 @@ export function load() {
 				grouped[bucket].push({ org: item.org, items: [item] });
 			}
 		}
+	}
+
+	if (grouped['reporting']) {
+		grouped['reporting'].sort((a, b) => {
+			const ai = orgOrder.indexOf(a.org);
+			const bi = orgOrder.indexOf(b.org);
+			return (ai === -1 ? Infinity : ai) - (bi === -1 ? Infinity : bi);
+		});
 	}
 
 	return { work: grouped };

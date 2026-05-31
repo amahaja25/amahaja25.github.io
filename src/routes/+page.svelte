@@ -59,7 +59,7 @@
 	journalism and political science from the University of Maryland, College Park, where I was
 	editor-in-chief and data editor of
 	<a href="https://dbknews.com/" target="_blank">The Diamondback</a>, the independent student
-	newspaper.
+	newspaper. 
 </p>
 
 <div class="icons-row">
