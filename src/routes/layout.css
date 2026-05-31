@@ -234,6 +234,7 @@ h3 {
 	font-style: italic;
 }
 
+
 .clip-list a:hover {
 	color: #184d63;
 }
@@ -309,7 +310,7 @@ h3 {
 .tag {
 	font-size: 0.7em;
 	padding: 0.1em 0.5em;
-	background-color: #51bbe833;
+	background-color: #a2d7ed7d;
 	color: #2f2e2e;
 }
 

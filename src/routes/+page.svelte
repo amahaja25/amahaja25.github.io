@@ -15,7 +15,7 @@
 	let { data } = $props();
 
 	let name;
-	const text = "Hi there! I'm Apurva Mahajan.";
+	const text = "Hi! I'm Apurva Mahajan.";
 
 	let flyX = $state(40);
 
@@ -34,11 +34,11 @@
 
 <h1 class="apurvamahajan" bind:this={name} aria-label={text}></h1>
 <p>
-	I'm a journalist and developer, and most recently a data visuals fellow at <a
+	I'm a journalist and developer, and most recently, a data visuals fellow at <a
 		href="https://www.texastribune.org/"
 		target="_blank">The Texas Tribune</a
 	>. I design interactive tools, create graphics and analyze data to help readers make sense of
-	elections, campaign finance and politics. I am a summer 2026 data intern at The Washington Post.
+	elections, campaign finance and politics. I also write (sometimes). I am a summer 2026 data intern at The Washington Post.
 </p>
 <p>
 	Some of my past stops include <a
