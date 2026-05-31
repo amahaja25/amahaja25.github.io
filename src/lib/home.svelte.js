@@ -14,7 +14,7 @@ export function typingEffect(element, text, cursor, i = 0) {
 		cursor.style.display = 'none';
 		return;
 	}
-	setTimeout(() => typingEffect(element, text, cursor, i + 1), 70);
+	setTimeout(() => typingEffect(element, text, cursor, i + 1), 85);
 }
 
 let active = $state(null);
