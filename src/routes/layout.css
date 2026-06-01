@@ -136,6 +136,33 @@ a:hover {
 	color: inherit;
 	line-height: 1em;
 	font-weight: 100;
+	position: relative;
+}
+
+.expand-btn::after {
+	content: attr(aria-label);
+	position: absolute;
+    line-height: 1.5;
+	top: 110%;
+	right: 0;
+	transform: translateX(0.25em);
+	background: #fff;
+	color: #000;
+	border: 1px solid #ccc;
+	font-size: 0.4em;
+	padding: 0.2em 0.4em;
+	white-space: nowrap;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+	font-family: 'DM Mono', monospace;
+	font-style: italic;
+	font-weight: 200;
+	box-shadow: 0 2px 6px #bbbbbb;
+}
+
+.expand-btn:hover::after {
+	opacity: 1;
 }
 
 .buckets-row {
@@ -150,7 +177,7 @@ a:hover {
 	cursor: pointer;
 	font-family: 'DM Mono', monospace;
 	font-size: .9em;
-	padding: 0.1em 0.2em;
+	padding: -1em 0.2em;
 	color: inherit;
 	text-decoration: none;
 	background-image: linear-gradient(currentColor, currentColor);

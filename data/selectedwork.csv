@@ -13,7 +13,7 @@ Detroit sees more violent crime than D.C. Could Trump send troops here?,The Detr
 "AI-related academic violation cases at UMD increased in 2024-25 school year, data shows",The Diamondback,https://dbknews.com/2026/05/08/ai-violation-umd-increased-2024-25/,r,reporting,,,
 "English, Spanish among 8 UMD majors with significant enrollment declines since 2012",The Diamondback,https://dbknews.com/2023/12/11/umd-majors-enrollment-declines/,sheets,reporting,,,
 Congressional Travel Explorer,Howard Center for Investigative Journalism,https://congressional-travel-explorer.com,"python, flask, html, css, js, frontend",viz, congressional-travel.gif,,
-Texas 2026 primary runoff election results,The Texas Tribune,https://apps.texastribune.org/features/2026/texas-primary-runoff-results-2026/,"react, d3.js, frontend",viz, runoff-results.png,,
+Texas 2026 primary runoff election results,The Texas Tribune,https://apps.texastribune.org/features/2026/texas-primary-runoff-results-2026/,"node.js, d3.js, frontend",viz, runoff-results.png,,
 "These maps show how Latino voters helped Democrats flip a reliably red Texas Senate seat", The Texas Tribune, https://www.texastribune.org/2026/02/06/texas-senate-district-9-taylor-rehmet-latino-voters-swing-democrats/, "python, pandas, datawrapper", "viz, reporting", rehmet.png,,
 "Texas primary voters smash recent midterm turnout records", The Texas Tribune, "https://www.texastribune.org/2026/03/04/texas-2026-primary-turnout-democratic-republican/", "python, pandas, d3.js, datawrapper", "viz, reporting", turnout.png,,
 Meeting Watchdog,Howard Center for Investigative Journalism,https://meeting-watchdog-api-648704443537.us-east1.run.app/,"python, js, html, css, figma",viz, meeting-watchdog.png,,

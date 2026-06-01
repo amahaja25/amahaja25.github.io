@@ -92,7 +92,7 @@
 				{/each}
 			</div>
 		{/if}
-		<button class="expand-btn" onclick={toggleBuckets} aria-label="Toggle categories">
+		<button class="expand-btn" onclick={toggleBuckets} aria-label={getShowBuckets() ? 'hide' : 'show'}>
 			{getShowBuckets() ? '−' : '+'}
 		</button>
 	</div>
