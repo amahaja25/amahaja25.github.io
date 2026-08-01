@@ -304,6 +304,7 @@ h3 {
 	background-color: #ddd;
 	border: none;
 	object-position: top;
+	margin: 0;
 }
 
 .viz-embed {

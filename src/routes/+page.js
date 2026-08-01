@@ -1,6 +1,6 @@
 import rawCsv from '../../data/selectedwork.csv?raw';
 
-const orgOrder = ['The Texas Tribune', 'The Detroit News', 'The Diamondback', 'The Frederick News-Post'];
+const orgOrder = ['The Washington Post', 'The Texas Tribune', 'The Detroit News', 'The Diamondback', 'The Frederick News-Post'];
 
 function parseCSVRow(row) {
 	const result = [];

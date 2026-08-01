@@ -38,10 +38,14 @@
 		href="https://www.texastribune.org/"
 		target="_blank">The Texas Tribune</a
 	>. I design interactive tools, create graphics and analyze data to help readers make sense of
-	elections, campaign finance and politics. I also write (sometimes). I am a summer 2026 data intern at The Washington Post.
+	elections, campaign finance and politics. I also write, sometimes.
 </p>
 <p>
-	Some of my past stops include <a
+	Some of my past stops include 
+	<a href="https://www.washingtonpost.com/people/apurva-mahajan/" target="_blank">
+	The Washington Post</a>,
+
+	<a
 		href="https://www.detroitnews.com/staff/84154473007/apurva-mahajan/"
 		target="_blank">The Detroit News</a
 	>
