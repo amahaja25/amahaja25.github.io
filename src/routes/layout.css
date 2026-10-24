@@ -205,18 +205,6 @@ a:hover {
 	align-items: center;
 }
 
-a:not(.icons a) {
-	background-image: linear-gradient(currentColor, currentColor);
-	background-position: 50% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 1px;
-	transition: background-size 0.25s ease;
-}
-
-a:not(.icons a):hover {
-	background-size: 100% 1px;
-}
-
 h1,
 h3 {
 	font-family: 'Rufina', serif;
