@@ -13,7 +13,7 @@ export function getEmailLabel() {
 
 export function copyEmail(e) {
 	e.preventDefault();
-	navigator.clipboard.writeText('amahaja@umd.edu');
+	navigator.clipboard.writeText('apurva.mahajan@texastribune.org');
 	emailLabel = 'copied!';
 	setTimeout(() => (emailLabel = 'click to copy my email'), 2000);
 }
