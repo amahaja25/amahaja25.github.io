@@ -88,10 +88,15 @@ a:hover {
 
 p a:not(.bucket-content a) {
 	color: #000;
+	font-weight: inherit;
+	text-decoration: underline;
+	text-decoration-color: rgba(32, 106, 137, 0.65);
+	text-underline-offset: 0.3em;
 }
 
 p a:not(.bucket-content a):hover {
 	color: #faa83c;
+	text-decoration-color: #faa83c;
 }
 
 .bucket-content a:hover {
@@ -313,16 +318,3 @@ h3 {
 	color: black;
 }
 
-.cursor {
-	display: inline-block;
-	width: 1px;
-	background-color: black;
-	animation: blink 0.7s steps(1) infinite;
-	height: 1em;
-}
-
-@keyframes blink {
-	50% {
-		opacity: 0;
-	}
-}

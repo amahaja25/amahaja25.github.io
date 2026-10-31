@@ -3,22 +3,9 @@ export const buckets = [
 	{ id: 'reporting', label: 'analysis & reporting' }
 ];
 
-export function typingEffect(element, text, cursor, i = 0) {
-	if (i === 0) {
-		element.textContent = '';
-		element.appendChild(cursor);
-	}
-	element.textContent += text[i];
-	if (i === text.length - 1) {
-		cursor.style.display = 'none';
-		return;
-	}
-	setTimeout(() => typingEffect(element, text, cursor, i + 1), 85);
-}
-
 let active = $state(null);
 let showBuckets = $state(true);
-let emailLabel = $state('click to copy email');
+let emailLabel = $state('click to  copy my email');
 
 export function getEmailLabel() {
 	return emailLabel;
@@ -28,7 +15,7 @@ export function copyEmail(e) {
 	e.preventDefault();
 	navigator.clipboard.writeText('amahaja@umd.edu');
 	emailLabel = 'copied!';
-	setTimeout(() => (emailLabel = 'click to copy email'), 2000);
+	setTimeout(() => (emailLabel = 'click to copy my email'), 2000);
 }
 
 export function toggle(bucket) {

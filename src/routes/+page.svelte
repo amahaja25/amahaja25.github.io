@@ -5,7 +5,6 @@
 		buckets,
 		toggle,
 		getActive,
-		typingEffect,
 		toggleBuckets,
 		getShowBuckets,
 		getEmailLabel,
@@ -14,16 +13,11 @@
 
 	let { data } = $props();
 
-	let name;
 	const text = "Hi! I'm Apurva Mahajan.";
 
 	let flyX = $state(40);
 
 	onMount(() => {
-		const cursor = document.createElement('span');
-		cursor.classList.add('cursor');
-		typingEffect(name, text, cursor);
-
 		const mq = window.matchMedia('(max-width: 768px)');
 		flyX = mq.matches ? -40 : 40;
 		mq.addEventListener('change', (e) => {
@@ -32,7 +26,7 @@
 	});
 </script>
 
-<h1 class="apurvamahajan" bind:this={name} aria-label={text}></h1>
+<h1 class="apurvamahajan">{text}</h1>
 <p>
 	I'm a journalist and developer at <a
 		href="https://www.texastribune.org/"
@@ -59,12 +53,17 @@
 		href="https://www.fredericknewspost.com/search/?l=25&s=start_time&sd=desc&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=apurva+mahajan"
 		target="_blank">Frederick News-Post</a
 	>
-	and <a href="https://aviationweek.com/">Aviation Week</a>. I received undergraduate degrees in
+	and <a href="https://aviationweek.com/">Aviation Week</a>. I received degrees in
 	journalism and political science from the University of Maryland, College Park, where I was
 	editor-in-chief and data editor of
 	<a href="https://dbknews.com/" target="_blank">The Diamondback</a>, the independent student
 	newspaper. 
 </p>
+
+<p>
+Contact me below for tips, feedback or just to say hey.
+</p>
+
 
 <div class="icons-row">
 	<span class="icons">
