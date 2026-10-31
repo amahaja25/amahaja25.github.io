@@ -68,7 +68,7 @@
 
 <div class="icons-row">
 	<span class="icons">
-		<a href="mailto:amahaja@umd.edu" aria-label={getEmailLabel()} onclick={copyEmail}
+		<a href="mailto:apurva.mahajan@texastribune.org" aria-label={getEmailLabel()} onclick={copyEmail}
 			><i class="bi bi-envelope-fill"></i></a
 		>
 		<a href="https://twitter.com/ApurvaMahajan_" target="_blank" aria-label="twitter"
@@ -123,36 +123,10 @@
 							{/if}
 							{#if item.hed}<div class="viz-title">
 									<a href={item.url} target="_blank">{item.hed}</a>
-								</div>{/if}
-							{#if item.org}<div class="viz-org">{item.org}</div>{/if}
-							{#if item.tools}
-								<div class="tags">
-									{#each item.tools.split(',') as tool}
-										<span class="tag">{tool.trim()}</span>
-									{/each}
-								</div>
-							{/if}
-						</div>
+								</div>{/if}						</div>
 					{/each}
 				{/each}
 			</div>
-		{:else if getActive() === 'other' && data.work['other']}
-			{#each data.work['other'] as group}
-				{#each group.items as item}
-					<div class="other-item">
-						<div class="subhead-clip">
-							{#if item.url}
-								<a href={item.url} target="_blank">{item.hed}</a>
-							{:else}
-								<span>{item.hed}</span>
-							{/if}
-						</div>
-						{#if item.bio}
-							<div class="other-desc">{item.bio}</div>
-						{/if}
-					</div>
-				{/each}
-			{/each}
 		{:else if getActive() && data.work[getActive()]}
 			{#each data.work[getActive()] as group}
 				{#if group.org}
@@ -162,13 +136,6 @@
 					{#each group.items as item}
 						<li>
 							<a href={item.url} target="_blank">{item.hed}</a>
-							{#if item.tools}
-								<span class="tags">
-									{#each item.tools.split(',') as tool}
-										<span class="tag">{tool.trim()}</span>
-									{/each}
-								</span>
-							{/if}
 						</li>
 					{/each}
 				</ul>

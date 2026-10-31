@@ -1,7 +1,6 @@
 export const buckets = [
 	{ id: 'viz', label: 'viz' },
-	{ id: 'reporting', label: 'analysis & reporting' },
-	{ id: 'other', label: 'other' }
+	{ id: 'reporting', label: 'analysis & reporting' }
 ];
 
 export function typingEffect(element, text, cursor, i = 0) {

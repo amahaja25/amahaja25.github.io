@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: #fdfbf8;
+	background-color: #fff;
 	height: 100%;
 	position: relative;
 	margin: 5% 20% 0 20%;
@@ -83,6 +83,14 @@ a:not(.bucket-content a) {
 }
 
 a:hover {
+	color: #faa83c;
+}
+
+p a:not(.bucket-content a) {
+	color: #000;
+}
+
+p a:not(.bucket-content a):hover {
 	color: #faa83c;
 }
 
@@ -184,7 +192,6 @@ a:hover {
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 	background-size: 0% 0.3px;
-	transition: background-size 0.25s ease;
 }
 
 .bucket-btn:hover,
@@ -237,11 +244,6 @@ h3 {
 	font-size: 1.25em;
 	color: #206a89;
 	font-weight: 600;
-}
-
-.other-desc {
-	font-size: 0.85em;
-	margin: 0.5em 0;
 }
 
 .clip-list li {
@@ -309,31 +311,6 @@ h3 {
 
 .viz-title a {
 	color: black;
-}
-
-.viz-org {
-	font-size: 0.75em;
-	opacity: 0.6;
-	margin-top: -0.5em;
-}
-
-.tags {
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: 0.3em;
-}
-
-.tag {
-	font-size: 0.7em;
-	padding: 0.1em 0.5em;
-    font-family: 'DM Mono', monospace;
-    font-weight:600;
-	background-color: #a2d7ed7d;
-	color: #2f2e2e;
-}
-
-.clip-list .tag {
-    font-style: normal;
 }
 
 .cursor {
